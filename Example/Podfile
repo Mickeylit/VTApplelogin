@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VTAppleLogin_Example' do
+  pod 'VTAppleLogin', :path => '../'
+
+  target 'VTAppleLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
